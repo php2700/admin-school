@@ -6,7 +6,7 @@ import ContactReqTable from "../../components/tables/contactusTab";
 import ContactusBanner from "../../components/tables/contactusBanner";
 import GalleryBanner from "../../components/tables/galleryBanners";
 import GalleryListTables from "../../components/tables/galleryTables";
-import AboutusEditor from "../../components/tables/aboutusTable";
+import AboutusEditor from "../../components/tables/aboutusTab";
 import LeaderShipBanner from "../../components/tables/leaderBanner";
 import ScheduleVisitBannerEditor from "../../components/tables/schedulevisitBanner";
 

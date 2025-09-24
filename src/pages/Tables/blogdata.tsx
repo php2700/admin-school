@@ -3,8 +3,8 @@
 import PageBreadcrumb from "../../components/common/PageBreadCrumb";
 import ComponentCard from "../../components/common/ComponentCard";
 import PageMeta from "../../components/common/PageMeta";
-import WelcomeEditor from "../../components/tables/welcomeTables";
-import Steam from "../../components/tables/steamTables";
+import WelcomeEditor from "../../components/tables/welcomeTab";
+import Steam from "../../components/tables/steamTab";
 import BlogDataTab from "../../components/tables/blogDatatab";
 
 export default function BlogDataTable() {
