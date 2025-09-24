@@ -9,7 +9,7 @@ import {
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-export default function AdmissionEnquiryTable() {
+export default function AdmissionEnquiry() {
       const [userData, setUserData] = useState([]);
       const [loading, setLoading] = useState(true);
       const [error, setError] = useState("");

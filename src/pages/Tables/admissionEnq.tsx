@@ -1,9 +1,8 @@
 // @ts-nocheck
-
-import PageBreadcrumb from "../../components/common/PageBreadCrumb";
 import ComponentCard from "../../components/common/ComponentCard";
+import PageBreadcrumb from "../../components/common/PageBreadCrumb";
 import PageMeta from "../../components/common/PageMeta";
-import AdmissionEnquiryTable from "../../components/tables/admisssionEnqTab";
+import AdmissionEnquiry from "../../components/tables/admisssionEnqTab";
 
 export default function AdmissionEnqTables() {
   return (
@@ -15,7 +14,7 @@ export default function AdmissionEnqTables() {
       <PageBreadcrumb pageTitle="Admissison Enquiry" />
       <div className="space-y-6">
         <ComponentCard title="Admissison Enquiry">
-          <AdmissionEnquiryTable />
+          <AdmissionEnquiry />
         </ComponentCard>
       </div>
     </>
