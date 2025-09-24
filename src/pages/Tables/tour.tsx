@@ -3,7 +3,7 @@
 import PageBreadcrumb from "../../components/common/PageBreadCrumb";
 import ComponentCard from "../../components/common/ComponentCard";
 import PageMeta from "../../components/common/PageMeta";
-import TourTable from "../../components/tables/tourTable";
+import TourTable from "../../components/tables/tourTab";
 
 export default function TakeTourTable() {
   return (
