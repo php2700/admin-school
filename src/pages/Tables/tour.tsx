@@ -1,8 +1,7 @@
 // @ts-nocheck
 
 import PageBreadcrumb from "../../components/common/PageBreadCrumb";
-// import ComponentCard from "../../components/common/ComponentCard";
-import ComponentCard from "../../components/common/Componentcard"; 
+import ComponentCard from "../../components/common/ComponentCard";
 import PageMeta from "../../components/common/PageMeta";
 import TourTable from "../../components/tables/tourTab";
 
