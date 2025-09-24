@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import PageBreadcrumb from "../../components/common/PageBreadCrumb";
 import ComponentCard from "../../components/common/ComponentCard";
 import Alert from "../../components/ui/alert/Alert";

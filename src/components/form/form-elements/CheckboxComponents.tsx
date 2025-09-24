@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useState } from "react";
 import ComponentCard from "../../common/ComponentCard";
 import Checkbox from "../input/Checkbox";

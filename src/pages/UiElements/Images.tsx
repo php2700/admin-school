@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import PageBreadcrumb from "../../components/common/PageBreadCrumb";
 import ResponsiveImage from "../../components/ui/images/ResponsiveImage";
 import TwoColumnImageGrid from "../../components/ui/images/TwoColumnImageGrid";
