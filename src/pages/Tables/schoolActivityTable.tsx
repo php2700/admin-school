@@ -3,8 +3,7 @@
 import PageBreadcrumb from "../../components/common/PageBreadCrumb";
 import ComponentCard from "../../components/common/ComponentCard";
 import PageMeta from "../../components/common/PageMeta";
-import WelcomeEditor from "../../components/tables/welcomeTables";
-import SchoolActivity from "../../components/tables/schoolActivityTables";
+import SchoolActivity from "../../components/tables/schoolActivityTab";
 
 export default function SchoolActivityTable() {
   return (
