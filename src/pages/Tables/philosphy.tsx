@@ -2,7 +2,7 @@
 import PageBreadcrumb from "../../components/common/PageBreadCrumb";
 import ComponentCard from "../../components/common/ComponentCard";
 import PageMeta from "../../components/common/PageMeta";
-import ContactReqTable from "../../components/tables/contactusTable";
+import ContactReqTable from "../../components/tables/contactusTab";
 import PhilosphyEditor from "../../components/tables/philosphyTab";
 
 export default function Philosphy() {

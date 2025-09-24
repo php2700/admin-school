@@ -105,7 +105,7 @@ export default function App() {
             <Route path="/admission-process" element={<PrivateRoute><AdmissionProcess/></PrivateRoute>} />
             <Route path="/mandatory" element={<PrivateRoute><AdmissionProcess/></PrivateRoute>} />
 
-            <Route path="/contact-us-list" element={<PrivateRoute><ContactUsReqTables /></PrivateRoute>} />
+            {/* <Route path="/contact-us-list" element={<PrivateRoute><ContactUsReqTables /></PrivateRoute>} /> */}
             <Route path="/take-tour" element={<PrivateRoute><TakeTourTable /></PrivateRoute>} />
             <Route path='/admission-enq-list' element={<PrivateRoute><AdmissionEnqTables/></PrivateRoute>} />
           </Route>

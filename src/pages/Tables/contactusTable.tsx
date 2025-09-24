@@ -1,8 +1,9 @@
 // @ts-nocheck
-import PageBreadcrumb from "../../components/common/PageBreadCrumb";
+
 import ComponentCard from "../../components/common/ComponentCard";
+import PageBreadcrumb from "../../components/common/PageBreadCrumb";
 import PageMeta from "../../components/common/PageMeta";
-import ContactReqTable from "../../components/tables/contactusTable";
+import ContactReqTable from "../../components/tables/contactusTab";
 
 export default function ContactUsReqTables() {
   return (
@@ -11,9 +12,9 @@ export default function ContactUsReqTables() {
         title="React.js Basic Tables Dashboard | TailAdmin - Next.js Admin Dashboard Template"
         description="This is React.js Basic Tables Dashboard page for TailAdmin - React.js Tailwind CSS Admin Dashboard Template"
       />
-      <PageBreadcrumb pageTitle="contact us Request List" />
+      <PageBreadcrumb pageTitle="Contact us Request List" />
       <div className="space-y-6">
-        <ComponentCard title="contact us Request">
+        <ComponentCard title="Contact Us Request">
           <ContactReqTable />
         </ComponentCard>
       </div>
