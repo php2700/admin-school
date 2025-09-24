@@ -4,7 +4,7 @@ import PageBreadcrumb from "../../components/common/PageBreadCrumb";
 import ComponentCard from "../../components/common/ComponentCard";
 import PageMeta from "../../components/common/PageMeta";
 import WelcomeEditor from "../../components/tables/welcomeTables";
-import FaqTables from "../../components/tables/faqTables";
+import FaqTables from "../../components/tables/faqTab";
 
 export default function FaqTable() {
       return (

@@ -4,7 +4,7 @@ import PageBreadcrumb from "../../components/common/PageBreadCrumb";
 import ComponentCard from "../../components/common/ComponentCard";
 import PageMeta from "../../components/common/PageMeta";
 import WelcomeEditor from "../../components/tables/welcomeTables";
-import FaqTables from "../../components/tables/faqTables";
+import FaqTables from "./faqTab";
 import FacilityEditor from "../../components/tables/facilityTables";
 import EnvironmentEditor from "./environmentTab";
 import DiffrentiatorEditor from "./diffrentiatortab";
