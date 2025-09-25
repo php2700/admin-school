@@ -47,6 +47,7 @@ import PursuitTable from "./pages/Tables/pursuittab";
 import Core from "./pages/Tables/core";
 import Program from "./pages/Tables/program";
 import AdmissionProcess from "./pages/Tables/admissionprocss";
+import Mandatory from "./pages/Tables/mandatory";
 
 export default function App() {
 
@@ -103,9 +104,9 @@ export default function App() {
             <Route path="/core-values" element={<PrivateRoute><Core/></PrivateRoute>}  />
             <Route path="/program" element={<PrivateRoute><Program/></PrivateRoute>}  />
             <Route path="/admission-process" element={<PrivateRoute><AdmissionProcess/></PrivateRoute>} />
-            <Route path="/mandatory" element={<PrivateRoute><AdmissionProcess/></PrivateRoute>} />
+            <Route path="/mandatory" element={<PrivateRoute><Mandatory/></PrivateRoute>} />
 
-            {/* <Route path="/contact-us-list" element={<PrivateRoute><ContactUsReqTables /></PrivateRoute>} /> */}
+            <Route path="/contact-us-list" element={<PrivateRoute><ContactUsReqTables /></PrivateRoute>} />
             <Route path="/take-tour" element={<PrivateRoute><TakeTourTable /></PrivateRoute>} />
             <Route path='/admission-enq-list' element={<PrivateRoute><AdmissionEnqTables/></PrivateRoute>} />
           </Route>

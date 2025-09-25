@@ -49,7 +49,7 @@ export default function AdmissionEnquiry() {
             getUserList();
       }, [page]);
 
-      if (loading) return <p>Loading loans...</p>;
+      if (loading) return <p>Loading Admission Enquiry List...</p>;
       if (error) return <p className="text-red-500">{error}</p>;
       console.log(userData, "ghhhhhhh");
       return (

@@ -48,7 +48,7 @@ console.log(response.data)
   }, [page]);
 
 
-  if (loading) return <p>Loading loans...</p>;
+  if (loading) return <p>Loading contact us...</p>;
   if (error) return <p className="text-red-500">{error}</p>;
 console.log(userData,"ghhhhhhh")
   return (

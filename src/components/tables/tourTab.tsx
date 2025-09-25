@@ -49,7 +49,7 @@ export default function TourTable() {
             getUserList();
       }, [page]);
 
-      if (loading) return <p>Loading loans...</p>;
+      if (loading) return <p>Loading tours data...</p>;
       if (error) return <p className="text-red-500">{error}</p>;
       console.log(userData, "ghhhhhhh");
       return (

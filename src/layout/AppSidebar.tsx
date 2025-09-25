@@ -213,11 +213,11 @@ const navItems: NavItem[] = [
             name: "Mandatory",
             path: "/mandatory",
       },
-      // {
-      //       icon: <TableIcon />,
-      //       name: "contact-us-list",
-      //       path: "/contact-us-list",
-      // },
+      {
+            icon: <TableIcon />,
+            name: "contact-us-list",
+            path: "/contact-us-list",
+      },
 
       {
             icon: <TableIcon />,
