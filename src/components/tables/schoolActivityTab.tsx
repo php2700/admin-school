@@ -231,7 +231,7 @@ export default function SchoolActivity() {
                                                                   )}
                                                             </td>
                                                             <td className="border px-3 py-2 text-center text-sm">
-                                                                  {act.title}
+                                                                  {act.title ? act.title : 'N/A'}
                                                             </td>
                                                             <td className="border px-3 py-2 text-left text-sm break-words">
                                                                   {
@@ -276,7 +276,7 @@ export default function SchoolActivity() {
                                                       }
                                                       className="mt-1 block w-full rounded border px-3 py-2 text-sm"
                                                       placeholder="Title"
-                                                      required
+                                                      
                                                 />
                                           </div>
 

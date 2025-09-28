@@ -65,7 +65,7 @@ export default function EveryChildEditor() {
             }
             setError("");
 
-            const newPreviews = selectedFiles.map((file) =>
+            const newPreviews = selectedFiles?.map((file) =>
                   URL.createObjectURL(file)
             );
 

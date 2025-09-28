@@ -48,6 +48,7 @@ import Core from "./pages/Tables/core";
 import Program from "./pages/Tables/program";
 import AdmissionProcess from "./pages/Tables/admissionprocss";
 import Mandatory from "./pages/Tables/mandatory";
+import EnquiryTable from "./pages/Tables/enquiry";
 
 export default function App() {
 
@@ -106,6 +107,7 @@ export default function App() {
             <Route path="/admission-process" element={<PrivateRoute><AdmissionProcess/></PrivateRoute>} />
             <Route path="/mandatory" element={<PrivateRoute><Mandatory/></PrivateRoute>} />
 
+            <Route path="/enquiry-list" element={<PrivateRoute><EnquiryTable /></PrivateRoute>} />
             <Route path="/contact-us-list" element={<PrivateRoute><ContactUsReqTables /></PrivateRoute>} />
             <Route path="/take-tour" element={<PrivateRoute><TakeTourTable /></PrivateRoute>} />
             <Route path='/admission-enq-list' element={<PrivateRoute><AdmissionEnqTables/></PrivateRoute>} />

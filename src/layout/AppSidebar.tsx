@@ -21,197 +21,388 @@ const navItems: NavItem[] = [
             name: "Dashboard",
             path: "/home ",
       },
-      {
-            icon: <TableIcon />,
-            name: "Home Banner",
-            path: "/banner ",
-      },
-      {
-            icon: <TableIcon />,
-            name: "Welcome",
-            path: "/welcome ",
-      },
-      {
-            icon: <TableIcon />,
+
+
+{
+  name: "Home",
+  icon: <TableIcon />,
+  subItems: [
+    { name: "Home Banner", path: "/banner" },
+    { name: "Welcome", path: "/welcome" },
+     {
             name: "Every child Section",
             path: "/every-child-section",
       },
-      {
-            icon: <TableIcon />,
+        {
             name: "School Activity ",
             path: "/school-activity",
       },
-
       {
-            icon: <TableIcon />,
             name: "CBSE Section",
             path: "/cbse-section",
       },
       {
-            icon: <TableIcon />,
             name: "Steam ",
             path: "/steam",
       },
-      {
-            icon: <TableIcon />,
+       {
             name: "Student Experience ",
             path: "/student-experience",
       },
+       
       {
-            icon: <TableIcon />,
-            name: "Faq ",
-            path: "/faq",
+            name: "Programs",
+            path: "/program",
       },
-       {
-            icon: <TableIcon />,
-            name: "Facility ",
-            path: "/facility",
-      },
-     
+  ]
+},
+
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Home Banner",
+      //       path: "/banner ",
+      // },
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Welcome",
+      //       path: "/welcome ",
+      // },
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Every child Section",
+      //       path: "/every-child-section",
+      // },
+      // {
+      //       icon: <TableIcon />,
+      //       name: "School Activity ",
+      //       path: "/school-activity",
+      // },
+
+      // {
+      //       icon: <TableIcon />,
+      //       name: "CBSE Section",
+      //       path: "/cbse-section",
+      // },
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Steam ",
+      //       path: "/steam",
+      // },
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Student Experience ",
+      //       path: "/student-experience",
+      // },
+
       {
-            icon: <TableIcon />,
-            name: "Contact us Banner",
-            path: "/contact-us-banner",
-      },
-      {
-            icon: <TableIcon />,
-            name: "Gallery Banner",
-            path: "/gallery-banner",
-      },
-      {
-            icon: <TableIcon />,
-            name: "Gallery list",
-            path: "/gallery-list",
-      },
-      {
-            icon: <TableIcon />,
+  name: "About Us",
+  icon: <TableIcon />,
+  subItems: [
+    {
             name: "About us",
             path: "/about-us",
       },
       {
-            icon: <TableIcon />,
             name: "Leadership Banner",
             path: "/leadership-banner",
       },
       {
-            icon: <TableIcon />,
             name: "Leader",
             path: "/leaders",
       },
       {
-            icon: <TableIcon />,
             name: "Principle Message",
             path: "/principle-message",
       },
       {
-            icon: <TableIcon />,
             name: "Vision",
             path: "/vision",
       },
       {
-            icon: <TableIcon />,
             name: "Diffrent From Other",
             path: "/diffrent-from-other",
       },
       {
-            icon: <TableIcon />,
             name: "Blog Banner",
             path: "/blog-banner",
       },
       {
-            icon: <TableIcon />,
             name: "Blog Data",
             path: "/blog-data",
       },
-      {
+        {
+            name: "Core Values",
+            path: "/core-values",
+      },
+        {
+            name: "Mandatory",
+            path: "/mandatory",
+      },
+]
+}
+,
+ {
             icon: <TableIcon />,
+            name: "Facility ",
+            path: "/facility",
+      },
+
+      {
+  name: "The Shri Way",
+  icon: <TableIcon />,
+  subItems: [
+    {
             name: "Shri Philosophy",
             path: "/shri-philosophy",
       },
       {
-            icon: <TableIcon />,
             name: "Shri Educator",
             path: "/shri-educator",
       },
-      {
-            icon: <TableIcon />,
-            name: "Application Form Banner",
-            path: "/application-form-banner",
+        {
+            name: "Shri Differentiators ",
+            path: "/shri-differentiators",
       },
-      {
-            icon: <TableIcon />,
-            name: "Shedule Visit Banner",
-            path: "/shedule-visit-banner",
-      },
-      {
-            icon: <TableIcon />,
-            name: "Faq Banner",
-            path: "/faq-banner",
-      },
-      {
-            icon: <TableIcon />,
+]},
+
+     {
+  name: "Learning",
+  icon: <TableIcon />,
+  subItems: [
+    {
             name: "Curriculum",
             path: "/curriculum",
       },
       {
-            icon: <TableIcon />,
             name: "Art & Visual Art",
             path: "/art",
       },
        {
-            icon: <TableIcon />,
             name: "Society & Clubs",
             path: "/society",
       },
        {
-            icon: <TableIcon />,
             name: "Sports",
             path: "/sports",
       },
        {
-            icon: <TableIcon />,
             name: "Classroom Banner",
             path: "/classroom",
       },
        {
-            icon: <TableIcon />,
             name: "Classroom Data",
             path: "/classroom-data",
       },
         {
-            icon: <TableIcon />,
             name: "Learning Environment ",
             path: "/learning-environment",
-      },
-      {
-            icon: <TableIcon />,
-            name: "Shri Differentiators ",
-            path: "/shri-differentiators",
       },
       {
             icon: <TableIcon />,
             name: "Co-Curriculum Pursuit",
             path: "/co-curriculum-pursuit",
       },
+]},
+
+{
+  name: "Common",
+  icon: <TableIcon />,
+  subItems: [
+     {
+            name: "Faq ",
+            path: "/faq",
+      },
        {
-            icon: <TableIcon />,
-            name: "Core Values",
-            path: "/core-values",
+            name: "Gallery Banner",
+            path: "/gallery-banner",
       },
       {
-            icon: <TableIcon />,
-            name: "Programs",
-            path: "/program",
+            name: "Gallery list",
+            path: "/gallery-list",
       },
-       {
+]},
+
+
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Faq ",
+      //       path: "/faq",
+      // },
+      
+     
+      {
             icon: <TableIcon />,
+            name: "Contact us Banner",
+            path: "/contact-us-banner",
+      },
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Gallery Banner",
+      //       path: "/gallery-banner",
+      // },
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Gallery list",
+      //       path: "/gallery-list",
+      // },
+      // {
+      //       icon: <TableIcon />,
+      //       name: "About us",
+      //       path: "/about-us",
+      // },
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Leadership Banner",
+      //       path: "/leadership-banner",
+      // },
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Leader",
+      //       path: "/leaders",
+      // },
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Principle Message",
+      //       path: "/principle-message",
+      // },
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Vision",
+      //       path: "/vision",
+      // },
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Diffrent From Other",
+      //       path: "/diffrent-from-other",
+      // },
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Blog Banner",
+      //       path: "/blog-banner",
+      // },
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Blog Data",
+      //       path: "/blog-data",
+      // },
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Shri Philosophy",
+      //       path: "/shri-philosophy",
+      // },
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Shri Educator",
+      //       path: "/shri-educator",
+      // },
+        {
+  name: "Admission",
+  icon: <TableIcon />,
+  subItems: [
+  {
+            name: "Application Form Banner",
+            path: "/application-form-banner",
+      },
+      {
+            name: "Shedule Visit Banner",
+            path: "/shedule-visit-banner",
+      },
+      {
+            name: "Faq Banner",
+            path: "/faq-banner",
+      },
+         {
             name: "Admisssion Process",
             path: "/admission-process",
-      },
+      }
+  ]
+},
+
+
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Application Form Banner",
+      //       path: "/application-form-banner",
+      // },
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Shedule Visit Banner",
+      //       path: "/shedule-visit-banner",
+      // },
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Faq Banner",
+      //       path: "/faq-banner",
+      // },
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Curriculum",
+      //       path: "/curriculum",
+      // },
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Art & Visual Art",
+      //       path: "/art",
+      // },
+      //  {
+      //       icon: <TableIcon />,
+      //       name: "Society & Clubs",
+      //       path: "/society",
+      // },
+      //  {
+      //       icon: <TableIcon />,
+      //       name: "Sports",
+      //       path: "/sports",
+      // },
+      //  {
+      //       icon: <TableIcon />,
+      //       name: "Classroom Banner",
+      //       path: "/classroom",
+      // },
+      //  {
+      //       icon: <TableIcon />,
+      //       name: "Classroom Data",
+      //       path: "/classroom-data",
+      // },
+      //   {
+      //       icon: <TableIcon />,
+      //       name: "Learning Environment ",
+      //       path: "/learning-environment",
+      // },
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Shri Differentiators ",
+      //       path: "/shri-differentiators",
+      // },
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Co-Curriculum Pursuit",
+      //       path: "/co-curriculum-pursuit",
+      // },
+      //  {
+      //       icon: <TableIcon />,
+      //       name: "Core Values",
+      //       path: "/core-values",
+      // },
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Programs",
+      //       path: "/program",
+      // },
+      //  {
+      //       icon: <TableIcon />,
+      //       name: "Admisssion Process",
+      //       path: "/admission-process",
+      // },
+      // {
+      //       icon: <TableIcon />,
+      //       name: "Mandatory",
+      //       path: "/mandatory",
+      // },
       {
             icon: <TableIcon />,
-            name: "Mandatory",
-            path: "/mandatory",
+            name: "Enquiry List",
+            path: "/enquiry-list",
       },
       {
             icon: <TableIcon />,
@@ -221,7 +412,7 @@ const navItems: NavItem[] = [
 
       {
             icon: <TableIcon />,
-            name: "take tour",
+            name: "take tour List",
             path: "/take-tour",
       },
       {
